@@ -157,8 +157,3 @@ Weekly reports on null threshold trends
  Add ML-based anomaly detection for data quality
  Build customer segmentation models for targeted campaigns
  Implement A/B testing framework for product optimization
-
-📄 License
-This project is private and proprietary to ABC Phones.
-
-Dashboard Links:
