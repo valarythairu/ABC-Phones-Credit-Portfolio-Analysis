@@ -116,7 +116,7 @@ Scheduling: Databricks Jobs (Cron-based)
 
 📊 Data Schema
 
-credit_customer_data_transformed
+## credit_customer_data_transformed
 
 Loan identifiers (LOAN_ID, DATE)
 
@@ -126,9 +126,7 @@ Financial metrics (BALANCE, ARREARS, TOTAL_PAID, DAYS_PAST_DUE)
 
 Risk classification (risk_category)
 
-Product information (PRODUCT_TYPE, County)
-
-survey_customer_data
+## survey_customer_data
 
 Survey responses (NPS_Score, NPS_Quality, NPS_Support)
 
@@ -138,17 +136,19 @@ Timestamps (Submitted_at)
 
 Loan linkage (Loan_Id)
 
-cleaned_sales_and_customer_data
+## cleaned_sales_and_customer_data
 
 Sales transactions (PRODUCT_NAME, SALE_DATE)
 
 Customer linkage (Loan_ID)
 
+Product information (PRODUCT_TYPE, County)
+
 Revenue tracking
 
-🔍 Key Findings
+## 🔍 Key Findings
 
-Critical Data Quality Issues Discovered
+## Critical Data Quality Issues Discovered
 
 Freshness Failure (CRITICAL): Latest data is 128 days old (2025-12-30) - ETL pipeline stopped
 
@@ -158,13 +158,13 @@ Referential Integrity (HIGH): 16 survey responses (0.45%) cannot be linked to cr
 
 Data Validation: 76 negative balances and 5 negative total paid amounts detected
 
-Portfolio Insights
+## Portfolio Insights
 
 Comprehensive view of credit portfolio performance
 
 Risk-based segmentation for proactive management
 
-Prerequisites
+## Prerequisites
 
 Databricks workspace with Unity Catalog enabled
 
@@ -172,7 +172,7 @@ SQL warehouse for dashboard execution
 
 Appropriate permissions for catalog credit-data-engineering and schema credit-data
 
-Deployment Steps
+## Deployment Steps
 
 Create Python cleaning notebooks in Catalog
 
