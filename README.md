@@ -14,9 +14,9 @@ Data Transformation Pipeline
 Automated Orchestration: Databricks pipeline runs all notebooks sequentially
 Delta Lake Storage: Optimized storage in Unity Catalog with ACID transactions
 Scheduled Execution: Daily automated runs at 6 AM Nairobi time
+
 Data Quality Monitoring Framework
 Implements 6 comprehensive checks across 3 tables:
-
 Check Type
 Description
 Severity
@@ -54,7 +54,6 @@ Temporal Analysis: Monthly trends in loan origination and portfolio growth
 Customer Segmentation: Analysis by age bands and income levels
 
 Data Quality Report Dashboard
-
 Page 1: Executive Summary
 Overall health score counter (3/6 checks passed)
 Critical issues counter with RED alerting
@@ -67,8 +66,8 @@ Page 2: Critical Issues Detail
 Freshness issue breakdown with latest data dates
 Range violations detail (71,456 invalid income bands)
 Referential integrity analysis (16 orphaned survey records)
-Page 3: Recommendations
 
+Page 3: Recommendations
 Prioritized action items with owners and effort estimates
 Recommended monitoring cadence (Real-time/Daily/Weekly)
 Automated alerting thresholds
