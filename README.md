@@ -174,7 +174,7 @@ Appropriate permissions for catalog credit-data-engineering and schema credit-da
 
 Deployment Steps
 
-Import Notebooks
+Create Python cleaning notebooks in Catalog
 
 Upload all 3 cleaning notebooks to your Databricks workspace
 
@@ -190,7 +190,9 @@ Schedule Job
 
 Create job to run data quality monitoring notebook
 
-Set schedule: Daily at 6 AM (Africa/Nairobi timezone)
+Create job to run credit portfolio analysis dashboard
+
+Set schedule: Daily (Africa/Nairobi timezone)
 
 Configure alerting thresholds
 
